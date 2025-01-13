@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+
+:root {
+    --po: "Passion One";
+    --ver: Verdana, Geneva, Tahoma, sans-serif;
+    --sri: "Sriracha"
+}
+
+* {
+    margin: 0px;
+}
+
+header h1 {
+    font-family: var(--po);
+    font-weight: bold;
+    color: white;
+    font-size: 128px;
+    text-align: center;
+    padding: 50px 0px 0px 0px;
+}
+
+header h1:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-color: black;
+}
+
+header p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+p span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+section p {
+    font-family: var(--sri);
+    font-size: 44px;
+    padding: 65px 0px 10px 30px;
+}
+
+section#img {
+    background-image: url("pacote-d012/imagens/background001.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: aqua;
+}
+
+section#img p {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.514);
+}
