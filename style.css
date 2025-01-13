@@ -17,6 +17,12 @@ main {
     min-width: 480px;
     max-width: 1800px;
 }
+
+header {
+    min-width: 480px;
+    max-width: 1800px;
+}
+
 header h1 {
     font-family: var(--po);
     font-weight: bold;
